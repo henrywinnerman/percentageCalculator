@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css" type = "text/css">
+  <link rel="stylesheet" href="font4.7/css/font-awesome.css">
+  <title>Percentage Calculator</title>
+</head>
+<body class = "bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class= "col-md-6 mx-auto"">
+        <div class = "card card-body text-center mt-5">
+            <h1 class = "heading display-5 pb-3">Percentage Calculator</h1>
+              <form id="calculator">
+                <div class = "form-group">
+                  <div class = "input-group">
+                        <input type="number" step="any" class = "form-control" id ="percent" placeholder="Percentage(%)">
+                  </div>
+
+                </div>
+                <div class = "form-group">
+                  <div class = "input-group">
+                        <input type="number" step="any" class = "form-control" id ="number" placeholder="Number">
+                  </div>
+                  <br>
+                    <div class = "form-group">
+                      <input type="submit" value="Calculate" class="btn btn-primary" style="width:100%;">
+                    </div>
+
+                </div>
+                </form>
+                <div id ="results">
+                  <div class = "form-group">
+                  <div class = "input-group">
+                        <input type="number" class = "form-control" id ="result" placeholder="Result" disabled>
+                  </div>
+                  
+                </div>
+            </div>
+    </div>
+  </div>
+</div>
+  
+  
+  
+  <script src="./app.js"></script>
+  <script src="./js/jquery-3.5.1.js"></script>
+</body>
+</html>
